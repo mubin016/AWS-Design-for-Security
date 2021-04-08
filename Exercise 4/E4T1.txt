@@ -1,0 +1,14 @@
+Changes that can be made to our environment to prevent 
+an SSH brute force attack from the internet.
+
+1. Restricting public SSH access at the instance level.
+2. Implementing password complexity requirements. 
+3. Provisioning AWS WAF to prevent brute force attacks. 
+4. Restricting access to certain IP addresses. 
+
+Neither instance should have had access to the secret recipes bucket; even in the instance that API credentials were compromised
+how could we have prevented access to sensitive data?
+
+1. Setting up s3 bucket policy to allow access from certain URL.
+2. Using cloudfromt and OAI to improve restrictions. 
+3. Using signed cookies for premium users. 
