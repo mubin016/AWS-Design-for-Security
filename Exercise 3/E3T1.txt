@@ -1,0 +1,6 @@
+Findings from Guard DUty:
+
+Unfortunately for some reasons no brute force attack or any such scenario was detected on GuardDuty Page. 
+I looked into the forum to find answers. But I saw that many other students had faced the same issue 
+and one mentor had suggested to submit the screenshot of the brute force attac to provide evidence of a successful attack. 
+Thus I have submitted it accordingly. 
