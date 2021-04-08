@@ -1,0 +1,16 @@
+Scanning tools for IaC:
+
+1. Checkov:Can identify configuration compliance issues. 
+2. TFLint: Can identify issues related to security in a cloud provider specific way. 
+3. Terrafirma: Can detect security misconfiguration. 
+
+Scanning tools for AMI's or Containers for OS vulnerabilities. 
+
+1. Anchore: Can detect both OS and Non OS vulnerabilities. 
+2. Clair:Can detect OS vulnerabilities. 
+
+Scanning tools for 
+
+1. AWS Config: Can detect configuration compliance. 
+2. Prowler: Can detect compliance with CIS AWS foundations. 
+3. AWS Custodian: Real time compliance checks and reporting vulnerabilities. 
