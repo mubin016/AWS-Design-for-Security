@@ -1,0 +1,12 @@
+Problems Found:
+
+1. Incoming SSH traffic are not restricted to specific IPs on security groups.
+2. Incoming RDP traffics are not restricted.
+3. UDP port 68 is reachable over the internet. 
+4. Minimum password length is not enforced. 
+
+Solutions:
+
+1. Restrict traffic on port 22
+2. SG inbound rules should be modified to allow traffic from from certain range. 
+3. Password setting needs to be implemented. 
