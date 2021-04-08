@@ -1,6 +1,8 @@
-Findings from Guard DUty:
-
-Unfortunately for some reasons no brute force attack or any such scenario was detected on GuardDuty Page. 
-I looked into the forum to find answers. But I saw that many other students had faced the same issue 
-and one mentor had suggested to submit the screenshot of the brute force attac to provide evidence of a successful attack. 
-Thus I have submitted it accordingly. 
+Guard Duty Should have reported the following findings:
+  1. One of the instances was being attacked by a brute force attack.
+  2. One of the instances were being used to run a brute force attack. 
+  
+How GuardDuty may have found these attacks:
+  1. Analyzing CloudTrail logs, VPC flow logs and DNSlogs. 
+  2. Log will show a large number of requests being sent to a specific IP from an instance indicating an SSH Brute force attack. 
+  3. Logs will show a large number of requests will be coming from a specific IP. 
