@@ -1,0 +1,13 @@
+Poor Practice 1:
+
+Problem: Network ACLs in both subnets allowerd traffics from everywhere. 
+
+Solution: Network ACL should be used to restrict traffic to only authentic source. 
+We could use ip address ranges from the defined subnet only to be allowed. 
+
+Poor PRactice 2:
+
+Problem: No bucket policy had been set in place to restrict access from unauthorize users.  
+
+Solution: Bucket policies needs to be implemented in order to allow only 
+certain users to access the buc
